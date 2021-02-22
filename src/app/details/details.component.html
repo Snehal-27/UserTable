@@ -1,0 +1,9 @@
+<a routerLink='/home'>Back home</a><br/>
+
+<h1>Person selected</h1>
+<ul>
+  <li><strong>userId:</strong>{{(person$ | async).userId}}</li>
+  <li><strong>id:</strong>{{(person$ | async).id}}</li>
+  <li><strong>title:</strong>{{(person$ | async).title}}</li>
+    <li><strong>completed:</strong>{{(person$ | async).completed}}</li>
+</ul>
